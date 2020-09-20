@@ -1,13 +1,21 @@
 ## TSINGSEE青犀能力开放平台
 
-TSINGSEE青犀开放平台是由安徽旭帆信息科技有限公司创立并运营的以视频为核心的能力开放平台，TSINGSEE青犀开放平台目前开放有：开源社区、中间件、SDK与工具、硬件等多个方面，在整个流媒体音视频领域，TSINGSEE开放平台拥有多年的技术积累，已经在行业具备非常强的实力和领先的优势！
-目前由TSINGSEE青犀开放平台运营的产品主要有：
+TSINGSEE青犀开放平台是由安徽旭帆信息科技有限公司创立并运营的以视频为核心的技术能力开放平台，TSINGSEE青犀开放平台目前开放有：开源社区、中间件、SDK与工具、硬件等多个方面，在整个流媒体音视频领域，TSINGSEE开放平台拥有多年的技术积累，已经在行业具备非常强的实力和领先的优势！
+
+目前由TSINGSEE青犀开放平台运营的项目和产品主要有：
 
 ### 一、开源社区
 
-- EasyDarwin：开源流媒体服务器项目；
-- EasyPusher：RTSP协议推流项目；
-- EasyAACEncoder：AAC转码项目；
+#### &copy;	EasyDarwin
+高性能开源RTSP流媒体服务器，基于go语言研发，维护和优化：RTSP推模式转发、RTSP拉模式转发、录像、检索、回放、关键帧缓存、秒开画面、RESTful接口、WEB后台管理、分布式负载均衡，基于EasyDarwin构建出了一套基础的流媒体云视频平台架构！
+
+open source、high performance、industrial rtsp streaming server,a lot of optimization on streaming relay,KeyFrame cache,RESTful,and web management,also EasyDarwin support distributed load balancing,a simple streaming media cloud platform architecture.
+
+#### &copy;	EasyPusher
+EasyPusher是一款简单、高效、稳定、免费的一款标准RTSP/RTP协议直播推送库，支持将H.264/H.265/G.711/G.726/AAC等音视频数据推送到RTSP流媒体服务器（例如EasyDarwin）进行低延时直播或者视频通信，支持Windows、Linux、ARM、Android、iOS等平台，EasyPusher配套EasyDarwin流媒体服务器、EasyPlayer RTSP播放器适用于特殊行业的低延时应急指挥需求！
+
+#### &copy;	EasyAACEncoder
+EasyAACEncoder是一款简单、高效、稳定的开源音频编码库，支持将各种音频数据(G.711A/PCMA、G.711U/PCMU、G726、PCM)转码成AAC(with adts)格式，其中aac编码部分采用的是业界公认的faac库，EasyAACEncoder支持Windows、Linux、ARM等多种平台，能够广泛应用于各种移动终端设备、嵌入式设备和流媒体转码服务器！
 
 ### 二、中间件
 
