@@ -19,11 +19,16 @@ EasyAACEncoder是一款简单、高效、稳定的开源音频编码库，支持
 
 ### 二、中间件
 
-- EasyRTMPLive：流媒体接入软件网关，即软件编码器，将各种协议的视频流接入并以RTMP推流的方式输出；
+#### &copy;	EasyRTMPLive
+EasyRTMPLive是一款能够将文件、RTSP、RTMP、HTTP、HLS等各种各样的网络流媒体先拉取到本地，进行转换，再以标准RTMP/flv协议的方式推流到RTMP流媒体服务器、CDN等，进行直播分发，EasyRTMPLive就是一款软件编码器，将各种协议的视频流接入并以RTMP推流的方式输出；
 
-- EasyRTSPLive：拉流IPC摄像机或者NVR硬盘录像机RTSP流转成RTMP推送到CDN/RTMP流媒体服务器，支持多路RTSP流同时拉取并以RTMP协议推送发布，EasyRTSPLive支持任何平台；
+Streaming media middleware，trans RTSP/RTMP/HTTP/HLS etc.. to RTMP push；
 
-- EasyDSS-Kernel：高性能流媒体服务器软件，是EasyDSS流媒体服务的主要核心，支持协议包括RTSP、RTMP、HLS、HTTP-FLV，Easy系列的流媒体服务核心，以稳定、高效、功能丰富、Based on nginx为指标，经过多年的技术积累，现在以技术中台的方式对内、对外开放；
+#### &copy;	EasyRTSPLive
+EasyRTSPLive是一款拉流IPC摄像机或者NVR硬盘录像机RTSP流转成RTMP推送到CDN/RTMP流媒体服务器，支持多路RTSP流同时拉取并以RTMP协议推送发布，EasyRTSPLive完全自主研发，支持任何平台；
+
+#### &copy;	EasyDSS-Kernel
+高性能流媒体服务器软件，是EasyDSS流媒体服务的主要核心，支持协议包括RTSP、RTMP、HLS、HTTP-FLV，Easy系列的流媒体服务核心，以稳定、高效、功能丰富、Based on nginx为指标，经过多年的技术积累，现在以技术中台的方式对内、对外开放；
 
 ### 三、SDK&工具
 
