@@ -67,9 +67,11 @@ EasyGBD是GB/T28181 Device的简称，是国标GB28181协议的设备端，EasyG
 
 ### 四、硬件
 
-- EasyRTMPLive推流硬件；
-- 推流摄像机；
-- IPC模拟器：支持RTSP模拟、GB28181模拟；
+#### &copy;	EasyRTMPLive推流硬件
+
+#### &copy;	推流摄像机
+
+#### &copy;	IPC模拟器：支持RTSP模拟、GB28181模拟
 
 ### ✈ 更多视频解决方案资源汇总
 
