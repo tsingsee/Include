@@ -19,14 +19,38 @@ TSINGSEE青犀开放平台是由安徽旭帆信息科技有限公司创立并运
 
 ### 三、SDK&工具
 
-- EasyPlayer：全系列流媒体播放器，RTSP版、RTMP版、Pro全功能版、H5版；
-- EasyStreamClient：全协议拉流库，各种文件类型、流媒体类型取流与解析；
-- EasyRTMP：RTMP协议推流；
-- EasyRTSPClient：RTSP协议拉流；
-- EasyRTMPClient：RTMP协议拉流；
-- EasyRTSPServer：RTSP流媒体服务；
-- EasyOnvifClient：Onvif客户端；
-- EasyGBD：GB/T28181设备端SDK；
+#### &copy;	EasyPlayer
+EasyPlayer是一款精炼、高效、稳定的流媒体播放器，全系列流媒体播放器，RTSP版、RTMP版、Pro全功能版、H5版，支持各种各样的流媒体音视频播放！
+
+An elegant, simple, fast RTSP/RTMP/HLS/HTTP Player.EasyPlayer support RTSP(RTP over TCP/UDP)version& RTMP version & Pro version，cover all kinds of streaming media！
+
+#### &copy;	EasyStreamClient
+EasyStreamClient是一款支持File、RTSP、RTMP、HTTP等各种流媒体协议的音视频提取功能组件，支持H.264、H.265、PCM、AAC等各种音视频编码格式输出，支持Windows、Linux、Android、iOS、ARM等各种平台。
+
+EasyStreamClient support all kinds of streaming protocol, callback video & audio data，you can use this as easy ffmpeg !
+
+#### &copy;	EasyRTMP
+EasyRTMP是一套调用简单、功能完善、运行高效稳定的RTMP功能组件，经过多年实战和线上运行打造，支持RTMP推送断线重连、环形缓冲、智能丢帧、网络事件回调，支持Windows、Linux、arm（hisiv100/hisiv200/hisiv300/hisiv400/hisiv500/hisiv600/etc..）、Android、iOS平台，支持市面上绝大部分的RTMP流媒体服务器，包括Wowza、Red5、ngnix_rtmp、crtmpserver等主流RTMP服务器，能够完美应用于各种行业的直播需求，手机直播、桌面直播、摄像机直播、课堂直播等等方面！
+
+#### &copy;	EasyRTSPClient
+EasyRTSPClient是一款简单、稳定、高效、易用的RTSPClient工具，支持Windows、Linux、ARM、Android、iOS等几乎所有平台，支持RTP Over TCP/UDP，支持断线重连，能够接入市面上99%以上的IPC，调用简单且成熟稳定！
+
+EasyRTSPClient is an elegant, simple, high performance & high compatibility RTSP Client Utility,can use in RTSP Player,NVR,RTSP Relay,EasyRTSPClient can run in any platform ,such as x68/x64/Windows/Linux/Android/iOS/arm etc..,with flexible interface,EasyRTSPClient can fit almost all network IPCamera,very easy to use.
+
+#### &copy;	EasyRTMPClient
+EasyRTMPClient是一款简单、稳定、高效、易用的RTMPClient工具库，支持Windows、Linux、ARM、Android、iOS等几乎所有平台，支持断线重连，能够接入市面上99%以上的RTMP源（RTMP服务器、CDN），调用简单且成熟稳定！
+
+
+Streaming media sdk tool：An elegant, simple, high performance & high compatibility RTMP Client Utility,can use in RTMP Player,CDN,RTMP Relay,EasyRTMPClient can run in any platform ,such as x68/x64/Windows/Linux/Android/iOS/arm etc..,with flexible interface,EasyRTMPClient can fit almost all network RTMP Server、CDN,very easy to use.
+
+#### &copy;	EasyRTSPServer
+EasyRTSPServer是一款功能丰富且精炼的RTSPServer服务组件，性能高效、稳定、易定制，能够有效地应用于工业摄像机、智能机器人、流媒体服务器等设备，能够快速地帮助用户解决RTSP流媒体服务场景的需求。
+
+#### &copy;	EasyOnvifClient
+Full support for ONVIF specification, compatible with ONVIF Profile S, ONVIF Profile G, ONVIF Profile C, ONVIF Profile T, ONVIF Profile A and ONVIF Profile A, support device discovery, device management, media management, image settings, PTZ management, recording control, recording search, recording replay, video analytics, event management, media services 2, access control, door control, device IO, thermal, credential, access rules, schedule and receiver services. Happytime ONVIF Client supports video standards H265, H264, MJPEG and MPEG-4 as well as audio standards G.711, G.722, G.726, OPUS and AAC. The ONVIF client library supports multiple platforms, including windows, linux, mac, ios, etc. It supports cross-compilation and can be easily ported to embedded systems for video surveillance systems and network video recording (NVR) devices.  Full support for the ONVIF specification Compatible with ONVIF Profile S, G, C, Q, A Support H265 / H264 / MJPEG / MPEG-4 video decoding Support RTSP audio back channel Support RTSP metadata stream.
+
+#### &copy;	EasyGBD
+EasyGBD是GB/T28181 Device的简称，是国标GB28181协议的设备端，EasyGBD支持Windows、Linux、Android、iOS、ARM全部平台，EasyGBD兼容国标GB28181-2011、GB28181-2016全部功能。
 
 ### 四、硬件
 
